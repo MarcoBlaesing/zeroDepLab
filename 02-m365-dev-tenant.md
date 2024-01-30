@@ -24,3 +24,10 @@
     ![m365-dev](images/02/m365-dev04.png "Join M365 Dev")
 
 1. Create a password for your account and then click **Next**.
+
+    ![m365-dev](images/02/m365-dev05.png "Join M365 Dev")
+
+1. Set your *Country/region* and *Birthdate* then click **Next**.
+
+   A validation code is sent to your email address and a challenge page is displayed:
+        ![m365-dev](images/02/m365-dev06.png "Join M365 Dev")
