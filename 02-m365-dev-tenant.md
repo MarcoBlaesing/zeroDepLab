@@ -42,4 +42,14 @@
 
 1. Click **Next** and complete the “I am not a robot” checks.
 
-1. 
+   ![m365-dev](images/02/m365-dev08.png "Join M365 Dev")
+
+1. Click on the profile icon in the upper right corner and then click on **Add your name**
+
+   ![m365-dev](images/02/m365-dev09.png "Join M365 Dev")
+
+1. Enter your **First name** and **Last name**.
+
+1. Complete the **Captcha** and click the **Save** button.
+
+Congrats! Your account has now been created, and your name set in your Microsoft profile.  However, you will have to wait up to an hour for your name to propagate to the developer site so that you can join the developer program.
