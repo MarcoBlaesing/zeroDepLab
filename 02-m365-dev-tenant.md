@@ -30,4 +30,12 @@
 1. Set your *Country/region* and *Birthdate* then click **Next**.
 
    A validation code is sent to your email address and a challenge page is displayed:
-        ![m365-dev](images/02/m365-dev06.png "Join M365 Dev")
+   ![m365-dev](images/02/m365-dev06.png "Join M365 Dev")
+
+1. Retrieve the code sent to your email address and enter it on the verification page.
+
+1. Clear the check-box so that you don’t get additional emails.
+
+1. Click **Next**.
+
+   ![m365-dev](images/02/m365-dev07.png "Join M365 Dev")
