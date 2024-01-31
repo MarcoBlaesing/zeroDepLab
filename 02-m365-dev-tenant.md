@@ -2,6 +2,10 @@
 
 ## Register for a Microsoft account
 
+In this section you will register for a Microsoft account. If you already have an existing account you can skip this section but it is probably better to create a dedicated account for use with your Okta demo environment.
+
+> Note: At the end of this section you will have to wait up to one hour for your profile data to propagate to the developer site.  Plan this into your day.
+
 1. Open a browser and navigate to: https://developer.microsoft.com/en-us/microsoft-365/dev-program
 
     You’ll see the following page:
@@ -84,4 +88,61 @@
 
 1. Check your recovery settings and click on **Done**
    
-Congrats! Your account has now been created, and you completed your Microsoft profile. However, you will have to wait up to an hour for your additional profile data to propagate to the developer site so that you can join the developer program.
+Congrats! Your account has now been created, and you completed your Microsoft profile. However, you will have to wait up to an hour for your additional profile data to propagate to the developer site so that you can join the developer program. Take a coffee before you jump to the next section to join the Microsoft developer program.
+
+
+## Join the developer program
+
+In this section you will join the Microsoft developer program.
+
+1. Open a browser and navigate to: https://developer.microsoft.com/en-us/microsoft-365/dev-program
+
+    You’ll see the following page:
+
+    ![m365-dev](images/02/m365-dev01.png "Join M365 Dev")
+
+1. Click **Join now**.
+
+1. You should still be logged in (If not, login with the credentials you created in the previous section)
+
+    ![m365-dev](images/02/m365-dev18.png "Join M365 Dev")
+
+1.
+    * Select your **Country/Region** and **Language** preference.
+   
+    * Enter **Okta** (or anything else) as your **Company**.
+   
+    * Check the checkbox to accept the terms and conditions
+   
+    * Clear the checkbox so you don’t get extra email.
+   
+    * Click **Next**.
+  
+    ![m365-dev](images/02/m365-dev19.png "Join M365 Dev")
+
+1. Select a primary focus for your tenant and click **Next**.
+
+    ![m365-dev](images/02/m365-dev20.png "Join M365 Dev")
+
+1. Pick at least **one** development area, **confirm** that you are not a robot and click **Save**.
+
+    ![m365-dev](images/02/m365-dev21.png "Join M365 Dev")
+
+1. Select Configurable sandbox.
+You need to pick this option so that you can customize the domain for your sandbox. Although the description says this can take two days to provision, it is usually much quicker (can even be immediate).
+
+   Click **Next**
+
+    ![m365-dev](images/02/m365-dev21.png "Join M365 Dev")
+
+1.
+    * Select the **Country/region** where your sandbox will be created.
+      
+    * Enter a **username** for your super admin user. This can be whatever you like.
+  
+    * Set the **domain** for your sandbox. 
+
+    * Enter (and confirm) a password for your super admin user.
+This password must be at least 15 characters so you might want to use a password manager and let it generate one.
+
+    * Check the details and then click Continue.
