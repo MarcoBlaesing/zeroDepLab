@@ -39,3 +39,7 @@
 1. Click **Next**.
 
    ![m365-dev](images/02/m365-dev07.png "Join M365 Dev")
+
+1. Click **Next** and complete the “I am not a robot” checks.
+
+1. 
