@@ -64,4 +64,24 @@
 
 1. Verify your identity by clicking on **your eMail** in the middle.
 
-Congrats! Your account has now been created, and your name set in your Microsoft profile.  However, you will have to wait up to an hour for your name to propagate to the developer site so that you can join the developer program.
+   ![m365-dev](images/02/m365-dev13.png "Join M365 Dev")
+
+1. Enter the **code** you received via eMail and click on **Verify**
+
+   ![m365-dev](images/02/m365-dev14.png "Join M365 Dev")
+
+1. Click on **No thanks** to skip adding the M$ Authenticator
+
+   ![m365-dev](images/02/m365-dev15.png "Join M365 Dev")
+
+1. Enter your **country code** and **phone number** and click **Next**
+
+   ![m365-dev](images/02/m365-dev16.png "Join M365 Dev")
+
+1. Verify your phone number by entering the **Code** you received via SMS and click on **Next**
+
+   ![m365-dev](images/02/m365-dev17.png "Join M365 Dev")
+
+1. Check your recovery settings and click on **Done**
+   
+Congrats! Your account has now been created, and you completed your Microsoft profile. However, you will have to wait up to an hour for your additional profile data to propagate to the developer site so that you can join the developer program.
