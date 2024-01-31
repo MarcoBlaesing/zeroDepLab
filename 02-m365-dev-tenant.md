@@ -52,4 +52,16 @@
 
 1. Complete the **Captcha** and click the **Save** button.
 
+   ![m365-dev](images/02/m365-dev10.png "Join M365 Dev")
+
+1. Add your phone number as an additional recovery method by clicking on **Get started**
+
+   ![m365-dev](images/02/m365-dev11.png "Join M365 Dev")
+
+1. Enter your **password** and **Sign in**
+
+   ![m365-dev](images/02/m365-dev12.png "Join M365 Dev")
+
+1. Verify your identity by clicking on **your eMail** in the middle.
+
 Congrats! Your account has now been created, and your name set in your Microsoft profile.  However, you will have to wait up to an hour for your name to propagate to the developer site so that you can join the developer program.
