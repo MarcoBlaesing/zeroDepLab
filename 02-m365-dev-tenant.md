@@ -133,7 +133,7 @@ You need to pick this option so that you can customize the domain for your sandb
 
    Click **Next**
 
-    ![m365-dev](images/02/m365-dev21.png "Join M365 Dev")
+    ![m365-dev](images/02/m365-dev22.png "Join M365 Dev")
 
 1.
     * Select the **Country/region** where your sandbox will be created.
@@ -145,4 +145,8 @@ You need to pick this option so that you can customize the domain for your sandb
     * Enter (and confirm) a password for your super admin user.
 This password must be at least 15 characters so you might want to use a password manager and let it generate one.
 
-    * Check the details and then click Continue.
+    * Check the details and then click **Continue**.
+  
+    ![m365-dev](images/02/m365-dev23.png "Join M365 Dev")
+
+1.
