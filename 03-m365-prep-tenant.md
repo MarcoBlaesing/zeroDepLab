@@ -12,7 +12,7 @@
 
 1. Enter your username. You haven’t linked your DNS domain yet so you’ll need to use the format:
 
-  **<username>@<your demo domain>.onmicrosoft.com**
+
 
 1. Click **Next**.
 
