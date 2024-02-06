@@ -75,7 +75,7 @@ Follow these steps to add your DNS domain:
    
    ![m365-dev](images/03/m365-prep08.png "Prep M365 Dev")
 
-1. Click on **1. Add custom domain** and the enter **2. your domain name of choice**. Whatever you choose here it must end with **.onmicrosoft.com**. Finally click on**3. Add domain**.
+1. Click on **1. Add custom domain** and the enter **2. your domain name of choice**. Whatever you choose here it must end with **.onmicrosoft.com**. Finally click on **3. Add domain**.
 
    ![m365-dev](images/03/m365-prep09.png "Prep M365 Dev")
 
