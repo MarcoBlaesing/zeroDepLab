@@ -64,4 +64,5 @@ To stop Microsoft 365 from ALSO trying to perform MFA registration, and enforce 
 ## Add a domain for fedaration
 
 In a Microsoft Office 365 tenant, single sign-on using an Identity Provider, such as Okta, cannot be enabled for the default “onmicrosoft.com” domain.  Before you can set up single sign-on, you must add an additional domain to your Microsoft 365 tenant. This can be a custom (your own domain) but also an additional **onmicrosoft.com** doamin.
+
 In this section we will add an **onmicrosoft.com** domain.
