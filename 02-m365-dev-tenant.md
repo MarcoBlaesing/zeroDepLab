@@ -149,4 +149,11 @@ This password must be at least 15 characters so you might want to use a password
   
     ![m365-dev](images/02/m365-dev23.png "Join M365 Dev")
 
-1.
+1. Enter a phone number to validate your developer sandbox.
+
+   > Note: You may see an error if you use a phone number that is already associated with a different Microsoft developer account. You’ll have to use a different phone number.
+
+1. Click **Send Code**.
+   The code is sent to your phone via SMS.
+
+    ![m365-dev](images/02/m365-dev24.png "Join M365 Dev")
