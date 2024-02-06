@@ -59,3 +59,7 @@ To stop M365 from ALSO trying to perform MFA registration, and enforce MFA at lo
 1. Click the **Disable** button to confirm.
    
    OK, that’s done.  Users will no longer be prompted to register for Multi-Factor Authentication by M365.  This will be handled by Okta (once you have integration set up).
+   
+
+## Add a domain for fedaration
+
