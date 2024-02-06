@@ -35,7 +35,7 @@
 In your demonstration environment, you will connect your Okta tenant with this M365 tenant.  All access to M365 will be via Okta and Okta will be responsible for user authentication, registration of additional authentication factors, and enforcing Multi-Factor Authentication in line with configured authentication policy.
 To stop M365 from ALSO trying to perform MFA registration, and enforce MFA at login, you need to disable Multi-Factor Authentication in the M365 Administration pages.
 
-    ![m365-dev](images/03/m365-prep05.png "Prep M365 Dev")
+   ![m365-dev](images/03/m365-prep05.png "Prep M365 Dev")
 
 1. In the admin center, type ** 1. identity** into the search bar.
 
