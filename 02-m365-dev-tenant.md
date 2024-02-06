@@ -151,9 +151,22 @@ This password must be at least 15 characters so you might want to use a password
 
 1. Enter a phone number to validate your developer sandbox.
 
-   > Note: You may see an error if you use a phone number that is already associated with a different Microsoft developer account. You’ll have to use a different phone number.
+    > Note: You may see an error if you use a phone number that is already associated with a different Microsoft developer account. You’ll have to use a different phone number.
 
 1. Click **Send Code**.
-   The code is sent to your phone via SMS.
+   
+    The code is sent to your phone via SMS.
 
     ![m365-dev](images/02/m365-dev24.png "Join M365 Dev")
+
+1. Enter the received code and click **Set up**.
+
+    Your developer subscription is created.  While it is working you see this screen:
+   
+    ![m365-dev](images/02/m365-dev25.png "Join M365 Dev")
+
+    On completion, you will see this:
+   
+    ![m365-dev](images/02/m365-dev26.png "Join M365 Dev")
+
+   **Congrats** your Microsoft Office 365 developer sandbox is now ready to use.
