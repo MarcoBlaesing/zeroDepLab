@@ -53,3 +53,9 @@ To stop M365 from ALSO trying to perform MFA registration, and enforce MFA at lo
     1. Set Security defaults to **Disabled**.
     1. Select a reason (it doesn’t matter which one you pick)
     1. Click **Save**.
+  
+   ![m365-dev](images/03/m365-prep07.png "Prep M365 Dev")
+
+1. Click the **Disable** button to confirm.
+   
+   OK, that’s done.  Users will no longer be prompted to register for Multi-Factor Authentication by M365.  This will be handled by Okta (once you have integration set up).
