@@ -40,7 +40,7 @@ To stop M365 from ALSO trying to perform MFA registration, and enforce MFA at lo
 
    ![m365-dev](images/03/m365-prep05.png "Prep M365 Dev")
 
-1. In the admin center, type ** 1. identity** into the search bar and select ** 2. Identity** from the result.
+1. In the admin center, type **1. identity** into the search bar and select **2. Identity** from the result.
 
 1. Click **Skip for now** if prompted to secure your account.
 
