@@ -26,5 +26,5 @@
 
 > Note: You don’t want to set up Multi-factor authentication in Microsoft because you’re going to enable it in Okta instead.  In the next section, there are instructions on disabling MFA in M365 which will prevent this from showing again.
 
-   ![m365-dev](images/03/m365-prep04.png "Prep M365 Dev")
+   ![m365-dev](images/03/m365-prep04.jpg "Prep M365 Dev")
    You are now signed into your M365 admin interface. 
