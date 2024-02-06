@@ -10,9 +10,9 @@
 
     ![m365-dev](images/03/m365-prep01.png "Prep M365 Dev")
 
-1. Enter your username. You haven’t linked your DNS domain yet so you’ll need to use the format:
+1. Enter your username. You’ll need to use the format below:
 
-
+> Note: **<username>@<your demo domain>.onmicrosoft.com**
 
 1. Click **Next**.
 
