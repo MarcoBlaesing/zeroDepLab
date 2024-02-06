@@ -75,9 +75,8 @@ Follow these steps to add your DNS domain:
    
    ![m365-dev](images/03/m365-prep08.png "Prep M365 Dev")
 
-1. Type **1. domains** in the search bar and select **2. Domains** from the results.
+1. Click on **1. Add custom domain** and the enter **2. your domain name of choice**. Whatever you choose here it must end with **.onmicrosoft.com**. Finally click on**3. Add domain**.
 
    ![m365-dev](images/03/m365-prep09.png "Prep M365 Dev")
-   On the Domains page, you can see the onmicrosoft.com domain.
 
-1. Click **Add Domain**
+Your initial Microsoft Office 365 tenant setup and configuration is now complete. You are ready to integrate with Okta for Single-Sign-On and Provisioning.
