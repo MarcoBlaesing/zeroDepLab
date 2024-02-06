@@ -9,7 +9,7 @@
 ## Before we start
 
 Some prerequisites are required for this workshop. Don't stress, your Okta tenant is already prepared and waiting for you. All you need to do is create a Microsoft 365 developer tenant by following the step-by-step guide.
-If you have a Microsoft 365 tenant that can be used for testing purposes, you can skip the section on creating a developer tenant.
+If you have a Microsoft 365 tenant that can be used for testing purposes, you can skip the section on creating a developer tenant and start with the tenant preparation.
 
 ## Initial sign in to your Okta tenant
 
@@ -19,5 +19,5 @@ As part of the provisioning process for your Okta Workforce Identity Cloud tenan
 1. Check your inbox for an email with the subject line **Your New Okta account**.
 1. Copy the **Temporary password**, and then click **Sign On**.
 1. Follow the instructions on the screen to sign in to your Okta tenant. After a successful sign in, you will see the **Okta End-User Dashboard**.
-1. Sign out of your Okta tenant and close the browser tab.
+1. In the upper right corner you can click on **admin** to access the **Okta Admin Dashboard**
    **Be sure to remember your new Okta admin account password**.
