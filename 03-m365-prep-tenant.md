@@ -71,8 +71,8 @@ In this section we will add an **onmicrosoft.com** domain.
 
 Follow these steps to add your DNS domain:
 
-1. Navigate to the Admin center of your Microsoft 365 account.
-
+1. Navigate to Entra admin center domain names setup section: https://entra.microsoft.com/#blade/Microsoft_AAD_IAM/DomainsListBlade
+   
    ![m365-dev](images/03/m365-prep08.png "Prep M365 Dev")
 
 1. Type **1. domains** in the search bar and select **2. Domains** from the results.
