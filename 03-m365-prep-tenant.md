@@ -12,7 +12,7 @@
 
 1. Enter your username. You’ll need to use the format below:
 
-> Note: **<username>@<your demo domain>.onmicrosoft.com**
+> Note: **<username>@<yourDemoDomain>.onmicrosoft.com**
 
 1. Click **Next**.
 
