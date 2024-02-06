@@ -39,8 +39,16 @@ To stop M365 from ALSO trying to perform MFA registration, and enforce MFA at lo
 
    ![m365-dev](images/03/m365-prep05.png "Prep M365 Dev")
 
-1. In the admin center, type ** 1. identity** into the search bar and select **Identity** from the result.
+1. In the admin center, type ** 1. identity** into the search bar and select ** 2. Identity** from the result.
 
 1. Click **Skip for now** if prompted to secure your account.
 
+   ![m365-dev](images/03/m365-prep06.png "Prep M365 Dev")
 
+     
+    1. You should already be on the **Overview** page.
+    1. Select the **Properties** tab.
+    1. Click **Manage security defaults**.
+    1. Set Security defaults to **Disabled**.
+    1. Select a reason (it doesn’t matter which one you pick)
+    1. Click **Save**.
