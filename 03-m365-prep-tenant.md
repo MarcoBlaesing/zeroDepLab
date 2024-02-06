@@ -4,4 +4,22 @@
 
 ## Sign into your Microsoft Office 365 tenant
 
-1. Head 
+1. Log in to the portal at https://admin.microsoft.com
+
+1. Click **Sign in**.
+
+    ![m365-dev](images/03/m365-prep01.png "Prep M365 Dev")
+
+1. Enter your username. You haven’t linked your DNS domain yet so you’ll need to use the format:
+
+  **<username>@<your demo domain>.onmicrosoft.com**
+
+1. Click **Next**.
+
+    ![m365-dev](images/03/m365-prep02.png "Prep M365 Dev")
+
+1. Enter password and click **Sign in**.
+
+    ![m365-dev](images/03/m365-prep03.png "Prep M365 Dev")
+
+1. You may see this screen. If so, click **Skip for now**.
