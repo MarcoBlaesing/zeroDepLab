@@ -33,8 +33,8 @@
 
 ## Disable native MFA
 
-In your demonstration environment, you will connect your Okta tenant with this M365 tenant.  All access to M365 will be via Okta and Okta will be responsible for user authentication, registration of additional authentication factors, and enforcing Multi-Factor Authentication in line with configured authentication policy.
-To stop M365 from ALSO trying to perform MFA registration, and enforce MFA at login, you need to disable Multi-Factor Authentication in the M365 Administration pages.
+In your demonstration environment, you will connect your Okta tenant with this Microsoft 365 tenant. All access to Microsoft 365 will be via Okta and Okta will be responsible for user authentication, registration of additional authentication factors, and enforcing Multi-Factor Authentication in line with configured authentication policy.
+To stop Microsoft 365 from ALSO trying to perform MFA registration, and enforce MFA at login, you need to disable Multi-Factor Authentication in the M365 Administration pages.
 
 1. You should already be signed in to the admin interface of your Microsoft Office 365 tenant. If not navigate to https://admin.microsoft.com and sign in.
 
@@ -63,3 +63,5 @@ To stop M365 from ALSO trying to perform MFA registration, and enforce MFA at lo
 
 ## Add a domain for fedaration
 
+In a Microsoft Office 365 tenant, single sign-on using an Identity Provider, such as Okta, cannot be enabled for the default “onmicrosoft.com” domain.  Before you can set up single sign-on, you must add an additional domain to your Microsoft 365 tenant. This can be a custom (your own domain) but also an additional **onmicrosoft.com** doamin.
+In this section we will add an **onmicrosoft.com** domain.
