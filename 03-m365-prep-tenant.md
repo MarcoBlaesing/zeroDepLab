@@ -66,3 +66,18 @@ To stop Microsoft 365 from ALSO trying to perform MFA registration, and enforce 
 In a Microsoft Office 365 tenant, single sign-on using an Identity Provider, such as Okta, cannot be enabled for the default “onmicrosoft.com” domain.  Before you can set up single sign-on, you must add an additional domain to your Microsoft 365 tenant. This can be a custom (your own domain) but also an additional **onmicrosoft.com** doamin.
 
 In this section we will add an **onmicrosoft.com** domain.
+
+### Start the Add Domain wizard
+
+Follow these steps to add your DNS domain:
+
+1. Navigate to the Admin center of your Microsoft 365 account.
+
+   ![m365-dev](images/03/m365-prep08.png "Prep M365 Dev")
+
+1. Type **1. domains** in the search bar and select **2. Domains** from the results.
+
+   ![m365-dev](images/03/m365-prep09.png "Prep M365 Dev")
+   On the Domains page, you can see the onmicrosoft.com domain.
+
+1. Click **Add Domain**
