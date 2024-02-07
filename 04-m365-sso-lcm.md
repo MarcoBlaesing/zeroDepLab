@@ -2,6 +2,14 @@
 
 In this lab, we'll effortlessly integrate Okta with your Microsoft Office 365 environment. By leveraging the Okta Integration Network, you'll experience firsthand how modern application integrations can be both straightforward and rapid. Through the benefits of automated provisioning and single sign-on, employees will be poised for instant productivity. And even as we focus on a user-friendly experience, remember, security is always at the forefront.
 
+## Add an Okta Group for provisioning
+
+1. Log in to your Okta Admin Dashboard `{{idp.name}}-admin.okta.com`
+1. In the Admin Dashboard select **Directory** >  **Groups**.
+1. Click **Add group**.
+1. Enter **App-Office365-ProPlus** as **Name** for the new group.
+1. Click **Save**.
+
 ## Add Microsoft Office 365 App to Okta for SSO
 
 1. Log in to your Okta Admin Dashboard `{{idp.name}}-admin.okta.com`
@@ -122,7 +130,7 @@ The application is now assigned to members of the **App-Office365-ProPlus** grou
 
 ## Assign User to Group
 
-You will now assign the new employee to the *App-Office365-ProPlus* group.
+You will now assign your user to the *App-Office365-ProPlus* group.
 
 1. On the **Assignments** tab, select the **App-Office365-ProPlus** group.
 
@@ -143,10 +151,10 @@ The new employee is now a member of the group and will be assigned the Microsoft
 ## Verify SSO for New Employee to Office 365
 
 
-In the Virtual Desktop, test single sign-on to Microsoft Office 365 for your new employee.
+Test single sign-on to Microsoft Office 365 for your new employee.
 
-1. Return to your **Virtual Desktop**.
-1. Open **Chrome**, and then sign in to your **Okta** tenant with your username and password.
+1. Logout from your Okta Admin Dashbaord and close your browser
+1. Open your browser, and then sign in to your **Okta** tenant with your username and password.
 1. Verify that your End-User Dashboard displays the Office 365 applications.
 1. Click the **Microsoft Office 365 Word Online** app.
 
