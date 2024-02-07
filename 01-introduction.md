@@ -9,7 +9,7 @@
 ## Before we start
 
 Some prerequisites are required for this workshop. Don't stress, your Okta tenant is already prepared and waiting for you. All you need to do is create a Microsoft 365 developer tenant by following the step-by-step guide.
-If you have a Microsoft 365 tenant that can be used for testing purposes, you can skip the section on creating a developer tenant and start with the tenant preparation.
+If you have a Microsoft Office 365 tenant that can be used for testing purposes, you can skip the section on creating a developer tenant and start with the tenant preparation.
 
 ## Initial sign in to your Okta tenant
 
