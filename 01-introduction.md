@@ -3,8 +3,7 @@
 ## Today we are going to learn the following topics:
 
 - How to integrate Okta with Microsoft 365
-- How to assign licences and roles based on group membership
-- How to secure and limit access to Microsoft 365
+- How to assign licences, roles and access to Microsoft Office 365 based on group membership
 
 ## Before we start
 
