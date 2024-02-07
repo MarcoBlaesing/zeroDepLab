@@ -95,6 +95,11 @@ In this section you will register for a Microsoft account. If you already have a
    ![m365-dev](images/02/m365-dev17.png "Join M365 Dev")
 
 1. Check your recovery settings and click on **Done**
+
+> Note: Make a note of the credentials created above as:
+> 
+> 1. Microsoft.Account.Username
+> 2. Microsoft.Account.Password
    
 Congrats! Your account has now been created, and you completed your Microsoft profile. However, you will have to wait up to an hour for your additional profile data to propagate to the developer site so that you can join the developer program. Take a coffee before you jump to the next section to join the Microsoft developer program.
 
@@ -154,6 +159,12 @@ You need to pick this option so that you can customize the domain for your sandb
 This password must be at least 15 characters so you might want to use a password manager and let it generate one.
 
     * Check the details and then click **Continue**.
+  
+    > Note: Make a note of the values created above as:
+    > 
+    > 1. Office365.Admin.Username
+    > 1. Office365.Admin.Password
+    > 1. Office365.Tenant.Name (this is the value that was entered under **create domain**)
   
     ![m365-dev](images/02/m365-dev23.png "Join M365 Dev")
 
