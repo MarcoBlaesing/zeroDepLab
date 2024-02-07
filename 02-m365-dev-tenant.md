@@ -6,6 +6,14 @@ In this section you will register for a Microsoft account. If you already have a
 
 > Note: At the end of this section you will have to wait up to one hour for your profile data to propagate to the developer site.  Plan this into your day.
 
+> Note: During this lab you will need to make a note for the following values:
+>
+> 1. Microsoft.Account.Username
+> 2. Microsoft.Account.Password
+> 3. Office365.Admin.Username
+> 4. Office365.Admin.Password
+> 5. Office365.Tenant.Name
+
 1. Open a browser and navigate to: https://developer.microsoft.com/en-us/microsoft-365/dev-program
 
     You’ll see the following page:
