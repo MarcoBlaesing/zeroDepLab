@@ -99,7 +99,7 @@ In this section you will enable provisioning to Microsoft 365. This will include
 
     ![Enable Create, Update, Deactivate](images/04/m365-prov04.png "Enable Create, Update, Deactivate")
 
-> *Did you know that the Okta Integration Network boasts over 7,600 pre-built integrations, making it the Swiss Army knife of seamless connectivity? Integration innovation at its finest!*
+> *Did you know that the Okta Integration Network boasts over 7,700 pre-built integrations, making it the Swiss Army knife of seamless connectivity? Integration innovation at its finest!*
 
 ## Configure group assignment
 
