@@ -160,13 +160,14 @@ This password must be at least 15 characters so you might want to use a password
 
     * Check the details and then click **Continue**.
   
-    > Note: Make a note of the values created above as:
-    > 
-    > 1. Office365.Admin.Username
-    > 1. Office365.Admin.Password
-    > 1. Office365.Tenant.Name (this is the value that was entered under **create domain**)
-  
-    ![m365-dev](images/02/m365-dev23.png "Join M365 Dev")
+
+> Note: Make a note of the values created above as:
+>
+> 1. Office365.Admin.Username
+> 1. Office365.Admin.Password
+> 1. Office365.Tenant.Name (this is the value that was entered under **create domain**)
+
+   ![m365-dev](images/02/m365-dev23.png "Join M365 Dev")
 
 1. Enter a phone number to validate your developer sandbox.
 
