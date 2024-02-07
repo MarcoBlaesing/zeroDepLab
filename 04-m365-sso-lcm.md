@@ -62,16 +62,12 @@ Accounts in Azure AD can be managed via Microsoft APIs. To enable provisioning, 
 1. In the **Microsoft Office 365** app definition, select the **Provisioning** tab.
 1. Click **Configure API Integration**.
 
-    |||
-    |:-----|:-----|
-    |![Configure API Integration](images/009/image09_600.png "Configure API Integration")|
+    ![Configure API Integration](images/04/m365-prov01.png "Configure API Integration")
 
 1. Select **Enable API integration**.
 1. Click **Authenticate with Microsoft Office 365**.
 
-    |||
-    |:-----|:-----|
-    |![Authenticate with Microsoft Office 365](images/009/image010_600.png "Authenticate with Microsoft Office 365")|
+    ![Authenticate with Microsoft Office 365](images/04/m365-prov02.png "Authenticate with Microsoft Office 365")
 
 1. Authenticate using the credentials for your Microsoft tenant from the launch pad.
 1. On the **Permissions Requested** dialog, click **Accept** to grant the permissions requested by the Okta Microsoft Graph Client, and be returned to the Okta Admin Console.
@@ -85,22 +81,18 @@ In this section you will enable provisioning to Microsoft 365. This will include
 
 1. On the **Provisioning** tab, under **Settings**, select **To App**.
 1. Click **Edit** to set the options for provisioning from Okta to Office 365.
-    |||
-    |:-----|:-----|
-    |![Provisioning to O365](images/011/app_o365_to_app_600.png "Provisioning to O365")|
+   
+    ![Provisioning to O365](images/04/m365-prov03.png "Provisioning to O365")
 
 1. For **Office 365 Provisioning Type**  select **Universal Sync**.
 1. For **Create Users**, select **Enable**.
 1. For **Update User Attributes**, select **Enable**.
 1. For **Deactivate Users**, select **Enable**.
 1. Click **Save**.
-    |||
-    |:-----|:-----|
-    |![Enable Create, Update, Deactivate](images/011/app_o365_to_app_enable_500.png "Enable Create, Update, Deactivate")|
 
-|||
-   |:-----|:-----|
-   |![Marc says...](images/011/marc_r74_100.png "Marc says...")|*Did you know that the Okta Integration Network boasts over 7,600 pre-built integrations, making it the Swiss Army knife of seamless connectivity? Integration innovation at its finest!*|
+    ![Enable Create, Update, Deactivate](images/04/m365-prov04.png "Enable Create, Update, Deactivate")
+
+> *Did you know that the Okta Integration Network boasts over 7,600 pre-built integrations, making it the Swiss Army knife of seamless connectivity? Integration innovation at its finest!*
 
 ## Configure group assignment
 
