@@ -62,16 +62,12 @@ Accounts in Azure AD can be managed via Microsoft APIs. To enable provisioning, 
 1. In the **Microsoft Office 365** app definition, select the **Provisioning** tab.
 1. Click **Configure API Integration**.
 
-    |||
-    |:-----|:-----|
-    |![Configure API Integration](images/009/image09_600.png "Configure API Integration")|
+    ![Configure API Integration](images/04/m365-prov01.png "Configure API Integration")
 
 1. Select **Enable API integration**.
 1. Click **Authenticate with Microsoft Office 365**.
 
-    |||
-    |:-----|:-----|
-    |![Authenticate with Microsoft Office 365](images/009/image010_600.png "Authenticate with Microsoft Office 365")|
+    ![Authenticate with Microsoft Office 365](images/04/m365-prov02.png "Authenticate with Microsoft Office 365")
 
 1. Authenticate using the credentials for your Microsoft tenant from the launch pad.
 1. On the **Permissions Requested** dialog, click **Accept** to grant the permissions requested by the Okta Microsoft Graph Client, and be returned to the Okta Admin Console.
@@ -85,26 +81,20 @@ In this section you will enable provisioning to Microsoft 365. This will include
 
 1. On the **Provisioning** tab, under **Settings**, select **To App**.
 1. Click **Edit** to set the options for provisioning from Okta to Office 365.
-    |||
-    |:-----|:-----|
-    |![Provisioning to O365](images/011/app_o365_to_app_600.png "Provisioning to O365")|
+   
+    ![Provisioning to O365](images/04/m365-prov03.png "Provisioning to O365")
 
 1. For **Office 365 Provisioning Type**  select **Universal Sync**.
 1. For **Create Users**, select **Enable**.
 1. For **Update User Attributes**, select **Enable**.
 1. For **Deactivate Users**, select **Enable**.
 1. Click **Save**.
-    |||
-    |:-----|:-----|
-    |![Enable Create, Update, Deactivate](images/011/app_o365_to_app_enable_500.png "Enable Create, Update, Deactivate")|
 
-|||
-   |:-----|:-----|
-   |![Marc says...](images/011/marc_r74_100.png "Marc says...")|*Did you know that the Okta Integration Network boasts over 7,600 pre-built integrations, making it the Swiss Army knife of seamless connectivity? Integration innovation at its finest!*|
+    ![Enable Create, Update, Deactivate](images/04/m365-prov04.png "Enable Create, Update, Deactivate")
+
+> *Did you know that the Okta Integration Network boasts over 7,600 pre-built integrations, making it the Swiss Army knife of seamless connectivity? Integration innovation at its finest!*
 
 ## Configure group assignment
-
-![contexttag](images/context-lab.png) ![contexttag](images/persona-okta-admin.png)
 
 When assigning users to an app, it's common to assign a group to an app and then assign users to the group.
 
@@ -112,23 +102,18 @@ When assigning a group to an app, you can specify values for app attributes, suc
 
 ## Assign Group Access to Application
 
-![contexttag](images/context-lab.png) ![contexttag](images/persona-okta-admin.png)
-
 You can assign a group to an app within an app definition. This will grant access to the app for all members of the group.
 
 1. In the **Microsoft Office 365** app definition, select the **Assignments** tab.
 1. Click **Assign**, and then select **Assign to Groups**.
-    |||
-     |:-----|:-----|
-     |![Assign to Groups](images/011/app_assign_to_groups_240.png "Assign to Groups")||
+
+     ![Assign to Groups](images/04/m365-prov05.png "Assign to Groups")
 1. Find the **App-Office365-ProPlus** group, and then click **Assign**.
 1. In the list of **Licenses**, find and select **Microsoft 365 E5 Developer (Without Windows and Audio Conferencing) - Office 365 ProPlus**. The license selection will apply to members of this group.
 
     >**Hint:** Command-F (on Mac) or Win+F ( on Windows) will provide you a search bar into which you can type *proplus*
 
-    |||
-     |:-----|:-----|
-     |![Office 365 ProPlus](images/011/group_app_o365_proplus_500.png "Office 365 ProPlus") ||
+     ![Office 365 ProPlus](images/04/m365-prov06.png "Office 365 ProPlus")
 
 1. Scroll down and click **Save and Go Back**.
 1. Scroll down and click **Done**.
@@ -137,24 +122,19 @@ The application is now assigned to members of the **App-Office365-ProPlus** grou
 
 ## Assign User to Group
 
-![contexttag](images/context-lab.png) ![contexttag](images/persona-okta-admin.png)
-
 You will now assign the new employee to the *App-Office365-ProPlus* group.
 
 1. On the **Assignments** tab, select the **App-Office365-ProPlus** group.
-    |||
-     |:-----|:-----|
-     |![Select group](images/011/app_o365_group_select_500.png "Select Group") ||
+
+     ![Select group](images/04/m365-prov07.png "Select Group")
 
 1. On the **People** tab, click **Assign people**.
-    |||
-    |:-----|:-----|
-    |![Assign people](images/009/image040_600.png "Assign people")|
+
+    ![Assign people](images/04/m365-prov08.png "Assign people")
 
 1. Find your *new employee*, and then click the **+** icon on the right to assign them to the group.
-    |||
-    |:-----|:-----|
-    |![Find new employee](images/011/group_assign_user_600.png "Find new employee")|
+
+    ![Find new employee](images/04/m365-prov09.png "Find new employee")
 
 1. Click **Done**.
 
@@ -162,7 +142,6 @@ The new employee is now a member of the group and will be assigned the Microsoft
 
 ## Verify SSO for New Employee to Office 365
 
-![contexttag](images/context-virtual.png) ![contexttag](images/persona-newemployee.png)
 
 In the Virtual Desktop, test single sign-on to Microsoft Office 365 for your new employee.
 
@@ -170,15 +149,13 @@ In the Virtual Desktop, test single sign-on to Microsoft Office 365 for your new
 1. Open **Chrome**, and then sign in to your **Okta** tenant with your **New Employee** username and password.
 1. Verify that your End-User Dashboard displays the Office 365 applications.
 1. Click the **Microsoft Office 365 Word Online** app.
-    |||
-    |:-----|:-----|
-    |![Microsoft Office 365 Word Online](images/011/okta_end_user_dashboard_new_employee_500.png "Microsoft Office 365 Word Online")|
+
+    ![Microsoft Office 365 Word Online](images/04/m365-prov10.png "Microsoft Office 365 Word Online")
 
 1. In the top-right corner of the page, click the identity icon.
 1. Click **Sign out** to clear the session, and then close the browser tab.
-    |||
-    |:-----|:-----|
-    |![Sign out](images/011/o365_word_sign_out_500.png "Sign out")|
+
+    ![Sign out](images/04/m365-prov11.png "Sign out")
 
 1. Sign out the new employee from Okta, and then close the browser.
 
