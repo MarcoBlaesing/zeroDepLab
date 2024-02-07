@@ -14,9 +14,37 @@ In this lab, we'll effortlessly integrate Okta with your Microsoft Office 365 en
 
 1. In the **General Settings** tab, enter your **Office365.Tenant.Name**
 
-    |![App Definition Tenant Name](images/04/app_o365_general_tenant_name_500.png "App Defintion Tenant Name")|
+    ![App Definition Tenant Name](images/04/m365-sso01.png "App Defintion Tenant Name")
 1. Optional. For **Display the following links**, deselect all but: **Word Online, Excel Online, PowerPoint Online and Office Portal**.
 1. Scroll down and click **Next**.
 
+### Sign-On Options
 
+1. In the **Sign On Options** tab, select **WS-Federation**.
 
+    ![WS-Federation](images/04/m365-sso02.png "WS-Federation   ")
+   
+1. Set the **Office 365 Admin Username** to `Office365.Admin.Username`
+1. Set the **Office 365 Admin password** to `Office365.Admin.Password`
+1. Click **Fetch and Select**. This will fetch a list of your Office 365 Domains.
+
+    ![Fetch and Select](images/04/m365-sso03.png "Fetch and Select")
+
+10. Select the **Office365.Domain** domain, and then click **Select**.
+
+    ![Select Domain](images/04/m365-sso04.png "Select Domain")
+
+### Customization with Okta Expression Language
+
+1. In the **Credential Details** section, for **Application username format** select **Custom**.
+1. For the **Custom** expression, copy and paste the following expression:
+
+    ```javascript
+    String.substringBefore(user.login,"@") + "@Office365.Domain"
+    ```
+
+    ![Custom Expression](images/04/m365-sso05.png "Custom Expression")
+
+4. Click **Done**.
+
+Congratulations! Your Okta Workforce Identity Cloud and Office 365 tenant are now configured for single sign-on from Okta to Office 365.
