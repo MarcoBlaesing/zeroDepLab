@@ -149,7 +149,6 @@ The new employee is now a member of the group and will be assigned the Microsoft
 
 ## Verify SSO for New Employee to Office 365
 
-
 Test single sign-on to Microsoft Office 365 for your new employee.
 
 1. Logout from your Okta Admin Dashbaord and close your browser
@@ -164,8 +163,10 @@ Test single sign-on to Microsoft Office 365 for your new employee.
 
     ![Sign out](images/04/m365-prov11.png "Sign out")
 
-1. Sign out the new employee from Okta, and then close the browser.
+1. Sign out the from Okta, and then close the browser.
 
 ## Conclusion
 
-With Okta and Microsoft Office 365 now in sync, we've demystified the art of fast and fuss-free integrations. Ready for immediate productivity? Check! Top-notch security? Double-check!
+##  :clap: Congratulations!  :clap: You have successfully configured Lifecycle Management and Single Sign-On to Microsoft Office 365. 
+
+We hope you enjoyed this lab and hope to see you again soon. 
