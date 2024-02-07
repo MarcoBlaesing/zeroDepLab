@@ -146,7 +146,7 @@ The new employee is now a member of the group and will be assigned the Microsoft
 In the Virtual Desktop, test single sign-on to Microsoft Office 365 for your new employee.
 
 1. Return to your **Virtual Desktop**.
-1. Open **Chrome**, and then sign in to your **Okta** tenant with your **New Employee** username and password.
+1. Open **Chrome**, and then sign in to your **Okta** tenant with your username and password.
 1. Verify that your End-User Dashboard displays the Office 365 applications.
 1. Click the **Microsoft Office 365 Word Online** app.
 
