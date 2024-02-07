@@ -12,7 +12,6 @@ In this lab, we'll effortlessly integrate Okta with your Microsoft Office 365 en
 
 ## Add Microsoft Office 365 App to Okta for SSO
 
-1. Log in to your Okta Admin Dashboard `{{idp.name}}-admin.okta.com`
 1. In the Admin Dashboard select **Applications** >  **Applications**.
 1. Click **Browse App Catalog**.
 1. In the Browse App Integration Catalog **Search...** bar, type *office 365* and then click **Microsoft Office 365**.
