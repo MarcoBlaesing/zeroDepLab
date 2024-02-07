@@ -24,7 +24,7 @@ In this lab, we'll effortlessly integrate Okta with your Microsoft Office 365 en
 
     ![WS-Federation](images/04/m365-sso02.png "WS-Federation   ")
    
-1. Set the **Office 365 Admin Username** to `Office365.Admin.Username`
+1. Set the **Office 365 Admin Username** to `Office365.Admin.Username@Office365.Tenant.Name.onmicrosoft.com`
 1. Set the **Office 365 Admin password** to `Office365.Admin.Password`
 1. Click **Fetch and Select**. This will fetch a list of your Office 365 Domains.
 
