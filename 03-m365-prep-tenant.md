@@ -1,10 +1,14 @@
 # Prepare your Microsoft Office 365 tenant
 
-   ![m365-dev](images/03/m365.png "Prep M365 Dev")
+In this section we will prepare your Microsoft Office 365 tenant for Single-Sign-On and Provisioning.
+
+> Note: During this lab you will need to make a note for the following value:
+>
+> 1. Office365.Domain
 
 ## Sign into your Microsoft Office 365 tenant
 
-1. Log in to the portal at https://admin.microsoft.com
+1. Log in to the portal at https://admin.microsoft.com (Use your admin credentials)
 
 1. Click **Sign in**.
 
@@ -12,7 +16,7 @@
 
 1. Enter your username. You’ll need to use the format below:
 
-> Note: **username@your demo domain.onmicrosoft.com**
+> Note: **Office365.Admin.Username@Office365.Tenant.Name.onmicrosoft.com**
 
 1. Click **Next**.
 
@@ -74,6 +78,10 @@ Follow these steps to add your DNS domain:
 1. Navigate to Entra admin center domain names setup section: https://entra.microsoft.com/#blade/Microsoft_AAD_IAM/DomainsListBlade
    
    ![m365-dev](images/03/m365-prep08.png "Prep M365 Dev")
+
+> Note: Make a note of the value created above as:
+>
+> 1. Office365.Domain
 
 1. Click on **1. Add custom domain** and the enter **2. your domain name of choice**. Whatever you choose here it must end with **.onmicrosoft.com**. Finally click on **3. Add domain**.
 
